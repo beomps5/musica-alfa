@@ -8,7 +8,6 @@
   </head>
   <body>
     <div class="background"></div>
-    <script type="module" src="/main.js"></script>
     <header>
       <nav class="navbar">
         <img class="search" src="/Union.svg" alt="buscar">
@@ -22,29 +21,19 @@
     <main>
       <section class="btns">
         <div class="btns ">
-        <button class="btn">Audiolibros</button>
-        <button class="btn">Podcast</button>
-        <button class="btn">Favoritos</button>
-        <button class="btn">Destacados</button>
-      </div>
+          <button class="btn">Audiolibros</button>
+          <button class="btn">Podcast</button>
+          <button class="btn">Favoritos</button>
+          <button class="btn">Destacados</button>
+        </div>
       </section>
-      <section class="container">
-        <div class="container">
-          <div class="box color"></div>
-          <div class="box color"></div>
-          <div class="box color"></div>
-          <div class="box color"></div>
-          <div class="box color"></div>
-          <div class="box color"></div>
-          <div class="box color"></div>
-          <div class="box color"></div>
-          <div class="box color"></div>
-         </section>
+      <section id="track-list" class="container">
+      </section>
     </main>
-    <footer class="playing">
-      <img class="poly" src="/Polygon1.svg" alt="play">
-      <p>En reproducción</p>
-      <img class="mic" src="/micro.svg" alt="micro">
+    <footer>
+
+      <audio src="" controls id="audio" autoplay> </audio>
     </footer>
+    <script type="module" src="/main.js"></script>
   </body>
-</html>
+  </html>

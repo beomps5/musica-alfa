@@ -5,7 +5,6 @@
     padding: 0;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1rem;
-    max-height: 800px;
 }
 .background{
     width: 100%;
@@ -51,16 +50,21 @@ nav{
 .btn{
     background-color: #F7FFE0;
     color: #1C1B1B;
-    font-weight: bold;
+    font-weight: bolder;
     border: none;
     border-radius: 10px;
     padding: 5px 10px ;
 }
-section.container {
-   padding-top: 50px;
-    height: 500vh;
+img{
+    width: 145px;
+    padding-top: 5px;
+    border-radius: 10px;
 }
-div.container {
+h3 .song{
+    color: #F7FFE0;
+}
+section.container {
+    padding: 20px;
     width: 80%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -75,23 +79,8 @@ div.container {
     border-radius: 10px;
 }
 .color {
-    background-color:#1C1B1B
+    background-color:#F7FFE0
 }
 footer{
-background-color: #1C1B1B;
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 20px;
-gap: 20px;
-color: #F7FFE0;
-font-weight: bold;
-border-radius: 10px;
-}
-.poly{
-    width: 3em;
-    padding-left: 20px;
-}
-.mic{
-    width: 2em;
+    justify-content: center;
 }
