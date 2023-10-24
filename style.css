@@ -57,7 +57,7 @@ nav{
 }
 img{
     width: 145px;
-    padding-top: 5px;
+    padding-top: 8px;
     border-radius: 10px;
 }
 h3 .song{
@@ -75,12 +75,14 @@ section.container {
 
 .box{
     width: 200px;
-    height: 200px;
+    height: 225px;
     border-radius: 10px;
 }
 .color {
     background-color:#F7FFE0
 }
 footer{
+    align-items: center;
     justify-content: center;
+    text-align: center;
 }
