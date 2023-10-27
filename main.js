@@ -6,7 +6,6 @@ fetch('https://leonardoapi.onrender.com/music')
         ('track-list')
         
         resJson.map((song) => {
-            
 
             const div = document.createElement('div')
             div.classList.add(
@@ -19,17 +18,16 @@ fetch('https://leonardoapi.onrender.com/music')
                 <p>"${song.author}"</p>
             `
             div.addEventListener('click', () => {
+
                 console.log('Click sobre: ' + song.title)
                     document.getElementById('audio')
                         .setAttribute('src', song.path.audio)
 
                         document.getElementById('front')
-                .setAttribute('src', song.path.front)
         
             })
-            // Finalment lo agregas al tracklist usando appendChild
             tracklist.appendChild(div)
-
+         
 
         })
         
